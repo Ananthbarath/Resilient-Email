@@ -1,5 +1,5 @@
-// tests/EmailService.test.ts
-import { EmailService } from "../src/EmailService";
+
+import { EmailService } from '../src/EmailService';
 
 test('should send email successfully', async () => {
     const emailService = new EmailService();
